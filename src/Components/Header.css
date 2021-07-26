@@ -43,3 +43,24 @@
 .header__icon {
     margin-right: 1vw;
 }
+
+.header__popUpBox p {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #606060;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.header__popUpBox span {
+    margin-right: 2vw;
+}
+
+.header__popUpBox p:hover {
+    color: black;
+}
+
+.header__popUpBox p:hover > .header__popUpBox__icon {
+    color: red;
+}
